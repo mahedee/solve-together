@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V8bK1NqSGs2d++q4dMFobDpkJWv5zSZxL+WhIs2vpsU=",
+  "Source": "AspNetCore.ApiVersioningTest",
+  "BasePath": "_content/AspNetCore.ApiVersioningTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

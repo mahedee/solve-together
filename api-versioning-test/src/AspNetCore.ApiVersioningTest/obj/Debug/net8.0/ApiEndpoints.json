@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "AspNetCore.ApiVersioningTest.Controllers.Versions.WeatherForecastController",
+    "Method": "GetWeatherForecast",
+    "RelativePath": "v1.1/WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCore.ApiVersioningTest.Controllers.Versions.WeatherForecastController",
+    "Method": "GetVersion",
+    "RelativePath": "v1.1/WeatherForecast/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCore.ApiVersioningTest.Controllers.Features.WeatherForecastController",
+    "Method": "GetWeatherForecast",
+    "RelativePath": "v1.2/WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AspNetCore.ApiVersioningTest.Controllers.Features.WeatherForecastController",
+    "Method": "GetVersion",
+    "RelativePath": "v1.2/WeatherForecast/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
