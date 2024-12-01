@@ -8,10 +8,9 @@ namespace AspNetCore.ApiVersioningTest.Controllers.Features
     /// <summary>
     /// Controller for managing weather forecasts.
     /// </summary>
-
-    [ApiVersion("1.2")]
-    [Route("v{version:apiVersion}/[controller]")]
+    [ApiVersion(ApiVersions.VERSION_NUMBER)]
     [ApiController]
+    [Route("api/v{version:apiVersion}/[controller]")]
     public sealed class WeatherForecastController : ControllerBase
     {
 
@@ -20,7 +19,7 @@ namespace AspNetCore.ApiVersioningTest.Controllers.Features
         /// </summary>
         /// <returns>A collection of weather forecast data.</returns>
         /// <response code="200">WeatherForecast retrieved</response>
-        [HttpGet]
+        [HttpGet("weather-forecast")]
         [ProducesResponseType(200)]
         public IActionResult GetWeatherForecast(CancellationToken cancellationToken)
         {
@@ -49,7 +48,7 @@ namespace AspNetCore.ApiVersioningTest.Controllers.Features
         [ProducesResponseType(200)]
         public IActionResult GetVersion(CancellationToken cancellationToken)
         {
-            return Ok($"This the version number {ApiVersionConfiguration.Version}");
+            return Ok($"This the version number {ApiVersions.VERSION_NUMBER}");
         }
     }
 

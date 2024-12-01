@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCore.ApiVersioningTest</name>
+    </assembly>
+    <members>
+        <member name="T:AspNetCore.ApiVersioningTest.Constants.CORSConfigurations">
+            <summary>
+            Configuration for CORS policies.
+            </summary>
+        </member>
+        <member name="T:AspNetCore.ApiVersioningTest.Constants.ApiVersionConfiguration">
+            <summary>
+            Configuration for API versioning.
+            Dynamically retrieves version details from environment variables or defaults to predefined values.
+            </summary>
+        </member>
+        <member name="T:AspNetCore.ApiVersioningTest.Constants.ContentTypes">
+            <summary>
+            Commonly used content types for API responses.
+            </summary>
+        </member>
+        <member name="T:AspNetCore.ApiVersioningTest.Controllers.Features.WeatherForecastController">
+            <summary>
+            Controller for managing weather forecasts.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.ApiVersioningTest.Controllers.Features.WeatherForecastController.GetWeatherForecast(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves a list of weather forecasts.
+            </summary>
+            <returns>A collection of weather forecast data.</returns>
+            <response code="200">WeatherForecast retrieved</response>
+        </member>
+        <member name="M:AspNetCore.ApiVersioningTest.Controllers.Features.WeatherForecastController.GetVersion(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the API version information.
+            </summary>
+            <returns>The current API version.</returns>
+            <response code="200">version retrieved</response>
+        </member>
+        <member name="T:AspNetCore.ApiVersioningTest.Controllers.Versions.WeatherForecastController">
+            <summary>
+            Controller for managing weather forecasts.
+            </summary>
+        </member>
+        <member name="M:AspNetCore.ApiVersioningTest.Controllers.Versions.WeatherForecastController.GetWeatherForecast(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves a list of weather forecasts.
+            </summary>
+            <returns>A collection of weather forecast data.</returns>
+            <response code="200">WeatherForecast retrieved</response>
+        </member>
+        <member name="M:AspNetCore.ApiVersioningTest.Controllers.Versions.WeatherForecastController.GetVersion(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the API version information.
+            </summary>
+            <returns>The current API version.</returns>
+            <response code="200">version retrieved</response>
+        </member>
+        <member name="T:AspNetCore.ApiVersioningTest.Models.WeatherForecast">
+            <summary>
+            Represents a weather forecast with temperature and summary details.
+            </summary>
+            <param name="Date">The date of the forecast.</param>
+            <param name="TemperatureC">The temperature in Celsius.</param>
+            <param name="Summary">A brief description of the weather.</param>
+        </member>
+        <member name="M:AspNetCore.ApiVersioningTest.Models.WeatherForecast.#ctor(System.DateOnly,System.Int32,System.String)">
+            <summary>
+            Represents a weather forecast with temperature and summary details.
+            </summary>
+            <param name="Date">The date of the forecast.</param>
+            <param name="TemperatureC">The temperature in Celsius.</param>
+            <param name="Summary">A brief description of the weather.</param>
+        </member>
+        <member name="P:AspNetCore.ApiVersioningTest.Models.WeatherForecast.Date">
+            <summary>The date of the forecast.</summary>
+        </member>
+        <member name="P:AspNetCore.ApiVersioningTest.Models.WeatherForecast.TemperatureC">
+            <summary>The temperature in Celsius.</summary>
+        </member>
+        <member name="P:AspNetCore.ApiVersioningTest.Models.WeatherForecast.Summary">
+            <summary>A brief description of the weather.</summary>
+        </member>
+    </members>
+</doc>

@@ -621,11 +621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Github\\solve-together\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
+      "projectUniqueName": "D:\\Projects\\Temp\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
       "projectName": "AspNetCore.ApiVersioningTest",
-      "projectPath": "D:\\Projects\\Github\\solve-together\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
+      "projectPath": "D:\\Projects\\Temp\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
       "packagesPath": "C:\\Users\\mahedee\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Github\\solve-together\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\obj\\",
+      "outputPath": "D:\\Projects\\Temp\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahedee\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Uj1lX1lxrA=",
+  "dgSpecHash": "/gDWgWmOVuk=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Github\\solve-together\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
+  "projectFilePath": "D:\\Projects\\Temp\\api-versioning-test\\src\\AspNetCore.ApiVersioningTest\\AspNetCore.ApiVersioningTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahedee\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\mahedee\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCore.ApiVersioningTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5ca668b492dbe40a7b075b7046c27bdf57711e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9364dc1e2485b88a45e1a27dd7ac06e60c51befc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCore.ApiVersioningTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCore.ApiVersioningTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
